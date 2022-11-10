@@ -1,0 +1,45 @@
+.main{
+    display: flex;
+}
+
+.form_main{
+    background-color: rgb(231, 226, 226);
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_main input{
+    height: 25px;
+    border-radius: 3px;
+    outline: none;
+    border: navajowhite;
+}
+.form_main form label{
+    color: black;
+}
+.main .name input{
+    margin-right: 10px;
+    width: 200px;
+}
+.main .username input{
+    width: 200px;
+}
+.form_main .email{
+    margin: 10px 0;
+}
+.form_main button{
+    margin-top: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+input[type="email"] {
+    width: 418px;
+}
+input[type="password"] {
+    width: 418px;
+}
+
